@@ -80,8 +80,8 @@ export default function Home() {
         </div>
 
         {/* Animated stripe decoration */}
-        <div className="absolute left-0 top-1/3 w-32 h-2 bg-red-600"></div>
-        <div className="absolute left-0 top-1/3 mt-4 w-24 h-1 bg-white"></div>
+        <div className="hidden sm:block absolute left-0 top-1/3 w-32 h-2 bg-red-600"></div>
+        <div className="hidden sm:block absolute left-0 top-1/3 mt-4 w-24 h-1 bg-white"></div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
@@ -389,7 +389,10 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="border-l-4 border-red-600 pl-4">
-                  <div className="text-5xl mb-2 text-black">0</div>
+                  <div className="text-5xl mb-2 text-white md:text-black">
+                    0
+                  </div>
+
                   <p className="text-gray-600 uppercase tracking-wide text-sm">
                     Shortcuts
                   </p>
