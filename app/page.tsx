@@ -67,7 +67,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center mt-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1738507869660-b44ea20ab037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cnVjayUyMGhpZ2h3YXklMjBsb2dpc3RpY3N8ZW58MXx8fHwxNzYzNTQ5MTAwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src="hero_image.JPG"
             alt="Trucking logistics"
             className="w-full h-full object-cover"
           />
@@ -223,10 +223,10 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-96 overflow-hidden group">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1738507869660-b44ea20ab037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cnVjayUyMGhpZ2h3YXklMjBsb2dpc3RpY3N8ZW58MXx8fHwxNzYzNTQ5MTAwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="jockey_delivery.jpg"
                 alt="Long haul trucking"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -251,7 +251,7 @@ export default function Home() {
 
             <div className="relative h-96 overflow-hidden group">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1761815139982-0876947bf09a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3YXJlaG91c2UlMjBkaXN0cmlidXRpb24lMjBjZW50ZXJ8ZW58MXx8fHwxNzYzNTk4MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="automotive_surveys.jpg"
                 alt="Warehouse distribution"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -274,31 +274,6 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative h-96 overflow-hidden group">
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1614568111194-3c251800e81e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVpZ2h0JTIwY29udGFpbmVyJTIwc2hpcHBpbmd8ZW58MXx8fHwxNzYzNTk4MDUyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Container freight"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
-              <div className="absolute top-0 left-0 w-2 h-full bg-red-600"></div>
-              <div className="absolute inset-0 flex items-end">
-                <div className="p-8 w-full">
-                  <div className="flex items-center gap-3 mb-3">
-                    <MapPin className="h-8 w-8 text-red-600" />
-                    <h3 className="text-white uppercase tracking-wide">
-                      Cargo & Container Surveys
-                    </h3>
-                  </div>
-                  <p className="text-gray-300">
-                    Detailed inspections of containers and general cargo —
-                    integrity, sealing, and load security checked before
-                    shipping or delivery.
-                  </p>
-                </div>
-              </div>
-            </div>
-
             <div className="relative h-96 overflow-hidden group bg-red-600">
               <div
                 className="absolute inset-0"
@@ -309,7 +284,7 @@ export default function Home() {
               ></div>
               <div className="relative h-96 overflow-hidden group">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=1600&q=80"
+                  src="truck_brokerage.jpg"
                   alt="Used trucks and passenger cars for trading"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -326,7 +301,7 @@ export default function Home() {
                     <div className="flex items-center gap-3 mb-3">
                       <Truck className="h-8 w-8 text-red-600" />
                       <h3 className="text-white uppercase tracking-wide">
-                        Vehicle Trading
+                        Truck Brokerage Services
                       </h3>
                     </div>
                     <p className="text-gray-300">
@@ -371,8 +346,8 @@ export default function Home() {
                 Founded in 2011 by Scott Lindahl — a logistics professional with
                 over 30 years of experience in both the United States and Sweden
                 — the company has grown from a small transport operation into a
-                trusted provider of automotive surveys, vehicle trading, and
-                specialized delivery services across Europe.
+                trusted provider of automotive surveys, Truck Brokerage
+                Services, and specialized delivery services across Europe.
               </p>
 
               <div className="grid grid-cols-3 gap-8">
@@ -404,7 +379,7 @@ export default function Home() {
               <div className="absolute -top-6 -left-6 w-full h-full border-4 border-red-600"></div>
               <div className="relative h-[500px] overflow-hidden">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1738507869660-b44ea20ab037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cnVjayUyMGhpZ2h3YXklMjBsb2dpc3RpY3N8ZW58MXx8fHwxNzYzNTQ5MTAwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src="img1.jpg"
                   alt="Future Logistics fleet"
                   className="w-full h-full object-cover"
                 />
@@ -492,7 +467,7 @@ export default function Home() {
               </div>
               <p className="text-gray-400">
                 Delivery of heavy vehicles every day — plus automotive surveys
-                and vehicle trading across Europe.
+                and Truck Brokerage Services across Europe.
               </p>
             </div>
             <div>
@@ -510,12 +485,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a href="#" className="hover:text-white">
-                    Cargo & Container Surveys
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Vehicle Trading
+                    Truck Brokerage Services
                   </a>
                 </li>
               </ul>
