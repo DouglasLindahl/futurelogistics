@@ -22,10 +22,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-3">
-              <div className="relative">
-                <Truck className="h-10 w-10 text-red-600" />
-                <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-red-600 rounded-full"></div>
+              <div className="relative flex items-center justify-center h-10 w-10">
+                <img
+                  src="logo.png"
+                  alt="Future Logistics logo"
+                  className="h-full w-full object-contain"
+                />
+                <div className="absolute -bottom-1 -right-1 w-2.5 h-2.5 bg-red-600 rounded-full"></div>
               </div>
+
               <div>
                 <span className="text-2xl text-white tracking-tight">
                   FUTURE
