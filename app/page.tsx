@@ -24,11 +24,10 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <div className="relative flex items-center justify-center h-10 w-10">
                 <img
-                  src="logo.png"
+                  src="fls-logo.png"
                   alt="Future Logistics logo"
                   className="h-full w-full object-contain"
                 />
-                <div className="absolute -bottom-1 -right-1 w-2.5 h-2.5 bg-red-600 rounded-full"></div>
               </div>
 
               <div>
@@ -105,12 +104,20 @@ export default function Home() {
             </h1>
             <div className="flex items-center gap-3 mb-8">
               <div className="w-16 h-1 bg-red-600"></div>
-              <p className="text-xl text-gray-300">
-                Delivery of heavy vehicles is what we do every day. Based on the
-                Swedish West Coast near Gothenburg Port, we combine decades of
-                experience with genuine, hands-on service — no delays, no
-                excuses, just professional delivery, inspection, and service.
-              </p>
+              <div>
+                <p className="text-xl text-gray-300">
+                  From driving vehicles across Europe to inspecting thousands of
+                  units in port, service remains at the heart of everything we
+                  do. Future Logistics Sweden AB continues to grow by combining
+                  decades of experience with a personal, hands-on approach that
+                  larger companies often lose.
+                </p>
+                <br />
+                <p className="text-xl text-gray-300">
+                  We don’t just move vehicles or check boxes — we move
+                  reliability forward, one vehicle at a time.
+                </p>
+              </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
@@ -126,82 +133,6 @@ export default function Home() {
               >
                 Learn More
               </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features */}
-      <section className="py-20 bg-white relative">
-        {/* Diagonal top edge */}
-        <div
-          className="absolute top-0 left-0 w-full h-20 bg-black"
-          style={{ clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 100%)" }}
-        ></div>
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="group">
-              <div className="bg-black p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
-                <div className="absolute top-0 right-0 w-32 h-32 bg-red-600/10 rounded-full -mr-16 -mt-16"></div>
-                <div className="relative">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="h-16 w-16 bg-red-600 flex items-center justify-center">
-                      <Clock className="h-8 w-8 text-white" />
-                    </div>
-                    <div className="h-12 w-1 bg-red-600"></div>
-                  </div>
-                  <h3 className="mb-3 text-white uppercase tracking-wide">
-                    Reliability Every Day
-                  </h3>
-                  <p className="text-gray-400">
-                    What started with one truck and one simple idea — get the
-                    job done right — is still how we work today.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="group">
-              <div className="bg-red-600 p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
-                <div className="absolute top-0 right-0 w-32 h-32 bg-black/20 rounded-full -mr-16 -mt-16"></div>
-                <div className="relative">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="h-16 w-16 bg-black flex items-center justify-center">
-                      <Shield className="h-8 w-8 text-white" />
-                    </div>
-                    <div className="h-12 w-1 bg-black"></div>
-                  </div>
-                  <h3 className="mb-3 text-white uppercase tracking-wide">
-                    Secure & Compliant
-                  </h3>
-                  <p className="text-white/90">
-                    Transports are performed using green plates under our
-                    insurance coverage, ensuring compliance and security.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="group">
-              <div className="bg-black p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
-                <div className="absolute top-0 right-0 w-32 h-32 bg-red-600/10 rounded-full -mr-16 -mt-16"></div>
-                <div className="relative">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="h-16 w-16 bg-red-600 flex items-center justify-center">
-                      <Users className="h-8 w-8 text-white" />
-                    </div>
-                    <div className="h-12 w-1 bg-red-600"></div>
-                  </div>
-                  <h3 className="mb-3 text-white uppercase tracking-wide">
-                    Hands-On Expertise
-                  </h3>
-                  <p className="text-gray-400">
-                    Experienced Swedish-speaking drivers and trained surveyors,
-                    with annual training in safety, regulations, and routines.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -231,7 +162,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-96 overflow-hidden group">
               <ImageWithFallback
-                src="jockey_delivery.jpg"
+                src="jockey1.webp"
                 alt="Long haul trucking"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -246,9 +177,8 @@ export default function Home() {
                     </h3>
                   </div>
                   <p className="text-gray-300">
-                    Moving heavy vehicles on their own wheels between ferry
-                    ports and destinations throughout Sweden and Europe — where
-                    our story began.
+                    Future Logistics Sweden AB started with what we know best —
+                    moving heavy vehicles on their own wheels.
                   </p>
                 </div>
               </div>
@@ -271,9 +201,8 @@ export default function Home() {
                     </h3>
                   </div>
                   <p className="text-gray-300">
-                    Meticulous vehicle inspections with high-resolution photos
-                    and structured reports — providing full traceability and
-                    confidence.
+                    As our operations grew, the next step was a natural one —
+                    automotive and cargo inspections.
                   </p>
                 </div>
               </div>
@@ -289,7 +218,7 @@ export default function Home() {
               ></div>
               <div className="relative h-96 overflow-hidden group">
                 <ImageWithFallback
-                  src="truck_brokerage.jpg"
+                  src="truck_brokerage2.jpeg"
                   alt="Used trucks and passenger cars for trading"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -310,9 +239,9 @@ export default function Home() {
                       </h3>
                     </div>
                     <p className="text-gray-300">
-                      Sourcing, buying, and selling used trucks and passenger
-                      cars — handled with transparency, care, and industry
-                      insight.
+                      Our newest expansion has been into vehicle trading, where
+                      we apply our logistical know- how to help clients source,
+                      buy, and sell used trucks and passenger cars.
                     </p>
                   </div>
                 </div>
@@ -321,7 +250,139 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Features */}
+      <section className="py-20 bg-white relative">
+        {/* Diagonal top edge */}
+        <div
+          className="absolute top-0 left-0 w-full h-20 bg-black"
+          style={{ clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 100%)" }}
+        ></div>
 
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="group">
+              <div className="bg-black p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-red-600/10 rounded-full -mr-16 -mt-16"></div>
+                <div className="relative">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="h-16 w-16 bg-red-600 flex items-center justify-center">
+                      <Truck className="h-8 w-8 text-white" />
+                    </div>
+                    <div className="h-12 w-1 bg-red-600"></div>
+                  </div>
+                  <h3 className="mb-3 text-white uppercase tracking-wide">
+                    Jockey Delivery
+                  </h3>
+                  <p className="text-gray-400">
+                    Our Jockey Delivery service involves the professional
+                    transport of trucks, buses, and other large vehicles from
+                    point A to B, often between ferry terminals and destinations
+                    across Europe.
+                  </p>
+                  <br />
+                  <p className="text-gray-400">
+                    Every move is carried out by experienced drivers using green
+                    plates under our insurance coverage.
+                  </p>
+                  <p className="text-gray-400">
+                    Safety and compliance are paramount — we train all our
+                    drivers annually to stay current with the latest transport
+                    laws, ferry regulations, and best practices.
+                  </p>
+                  <br />
+                  <p className="text-gray-400">
+                    Although today this is a smaller part of our business, it
+                    remains the foundation that shaped who we are: dependable,
+                    hands-on professionals who take pride in every kilometer
+                    driven.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group">
+              <div className="bg-red-600 p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-black/20 rounded-full -mr-16 -mt-16"></div>
+                <div className="relative">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="h-16 w-16 bg-black flex items-center justify-center">
+                      <Package className="h-8 w-8 text-white" />
+                    </div>
+                    <div className="h-12 w-1 bg-black"></div>
+                  </div>
+                  <h3 className="mb-3 text-white uppercase tracking-wide">
+                    Automotive Surveys
+                  </h3>
+                  <p className="text-white/90">
+                    Today, this is the core of what we do. At Gothenburg Port
+                    and other strategic locations, our certified surveyors
+                    inspect vehicles of all kinds — from passenger cars to heavy
+                    trucks — to detect and document any transport damage before
+                    further shipment.
+                  </p>
+                  <br />
+                  <p className="text-white/90">
+                    Each inspection includes detailed photographic evidence and
+                    precise reporting, ensuring full transparency for all
+                    parties involved.
+                  </p>
+                  <p className="text-white/90">
+                    Beyond vehicles, we also inspect containers and general
+                    cargo, checking for structural integrity, seal condition,
+                    and proper load security before departure.
+                  </p>
+                  <br />
+                  <p className="text-white/90">
+                    We provide survey services that meet strict international
+                    standards. Our clients depend on our accuracy, neutrality,
+                    and attention to detail — and we deliver, every day.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group">
+              <div className="bg-black p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-red-600/10 rounded-full -mr-16 -mt-16"></div>
+                <div className="relative">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="h-16 w-16 bg-red-600 flex items-center justify-center">
+                      <Truck className="h-8 w-8 text-white" />
+                    </div>
+                    <div className="h-12 w-1 bg-red-600"></div>
+                  </div>
+                  <h3 className="mb-3 text-white uppercase tracking-wide">
+                    Truck Brokerage Services
+                  </h3>
+                  <p className="text-gray-400">
+                    With decades of experience in the transport industry, we
+                    understand both the technical and commercial aspects of
+                    every transaction.
+                  </p>
+                  <br />
+                  <p className="text-gray-400">
+                    We identify suitable vehicles, verify their condition, and
+                    handle the entire process — from purchase to delivery — with
+                    the same professionalism that defines our transport and
+                    survey operations.
+                  </p>
+                  <p className="text-gray-400">
+                    Our strong network of suppliers and partners ensures that
+                    every deal is handled transparently and efficiently, whether
+                    for domestic use or export.
+                  </p>
+                  <br />
+                  <p className="text-gray-400">
+                    At Future Logistics Sweden AB, vehicle trading isn’t about
+                    volume — it’s about trust, quality, and long-term
+                    relationships.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* About Section */}
       <section id="about" className="py-20 bg-white relative overflow-hidden">
         {/* Diagonal background accent */}
@@ -343,16 +404,19 @@ export default function Home() {
               </h2>
               <div className="w-16 h-1 bg-red-600 mb-6"></div>
               <p className="text-gray-600 mb-6 text-lg">
-                Based on the Swedish West Coast near Gothenburg Port, Future
-                Logistics Sweden AB combines decades of experience with genuine,
-                hands-on service.
+                Since 2011, Future Logistics Sweden AB has built its reputation
+                on reliability, experience, and a personal commitment to
+                service. Founded by Scott Lindahl, a logistics professional with
+                more than 30 years in the industry — spanning the United States
+                and Sweden — the company started small with one clear mission:
+                deliver every vehicle safely and professionally.
               </p>
               <p className="text-gray-600 mb-10 text-lg">
-                Founded in 2011 by Scott Lindahl — a logistics professional with
-                over 30 years of experience in both the United States and Sweden
-                — the company has grown from a small transport operation into a
-                trusted provider of automotive surveys, Truck Brokerage
-                Services, and specialized delivery services across Europe.
+                From those beginnings, we have grown into a trusted partner for
+                automotive surveys, vehicle trading, and specialized transport
+                services across Sweden and Europe. Our success is built on
+                satisfied clients, dedicated drivers, and a focus on quality in
+                everything we do.
               </p>
 
               <div className="grid grid-cols-3 gap-8">
