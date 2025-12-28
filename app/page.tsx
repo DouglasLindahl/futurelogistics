@@ -59,9 +59,11 @@ export default function Home() {
               >
                 Contact
               </a>
-              <Button className="bg-red-600 hover:bg-red-700 text-white border-2 border-red-600 hover:border-red-700">
-                Get a Quote
-              </Button>
+              <a href="mailto:scott@futurelogistics.se?subject=Request%20a%20Quote">
+                <Button className="bg-red-600 hover:bg-red-700 text-white border-2 border-red-600 hover:border-red-700">
+                  Get a Quote
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -120,19 +122,24 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                size="lg"
-                className="bg-red-600 hover:bg-red-700 text-white border-2 border-red-600 uppercase tracking-wide"
-              >
-                Request a Quote <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="bg-transparent text-white border-2 border-white hover:bg-white hover:text-black uppercase tracking-wide"
-              >
-                Learn More
-              </Button>
+              <a href="mailto:scott@futurelogistics.se?subject=Request%20a%20Quote">
+                <Button
+                  size="lg"
+                  className="bg-red-600 hover:bg-red-700 text-white border-2 border-red-600 uppercase tracking-wide"
+                >
+                  Request a Quote <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </a>
+
+              <a href="#features">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="bg-transparent text-white border-2 border-white hover:bg-white hover:text-black uppercase tracking-wide"
+                >
+                  Learn More
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -251,7 +258,7 @@ export default function Home() {
         </div>
       </section>
       {/* Features */}
-      <section className="py-20 bg-white relative">
+      <section id="features" className="py-20 bg-white relative">
         {/* Diagonal top edge */}
         <div
           className="absolute top-0 left-0 w-full h-20 bg-black"
