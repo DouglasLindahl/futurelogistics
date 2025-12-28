@@ -526,95 +526,10 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black text-white py-12 border-t-4 border-red-600">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <div className="flex items-center gap-2 mb-4">
-                <Truck className="h-6 w-6" />
-                <span className="text-lg">Future Logistics Sweden AB</span>
-              </div>
-              <p className="text-gray-400">
-                Delivery of heavy vehicles every day — plus automotive surveys
-                and Truck Brokerage Services across Europe.
-              </p>
-            </div>
-            <div>
-              <h4 className="mb-4">Services</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Jockey Delivery
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Automotive Surveys
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Truck Brokerage Services
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="mb-4">Company</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>
-                  <a href="#" className="hover:text-white">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Our Story
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Compliance
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Partners
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="mb-4">Support</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Contact
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Vehicle Delivery
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Surveys
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Trading
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Future Logistics Sweden AB. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+
+      <div className="border-t border-gray-800 py-8 text-center text-gray-400">
+        <p>&copy; 2025 Future Logistics Sweden AB. All rights reserved.</p>
+      </div>
     </div>
   );
 }
