@@ -162,7 +162,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-96 overflow-hidden group">
               <ImageWithFallback
-                src="jockey1.webp"
+                src="Jockey1.webp"
                 alt="Long haul trucking"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -483,12 +483,8 @@ export default function Home() {
                   <Phone className="h-8 w-8 text-white" />
                 </div>
                 <h4 className="mb-3 uppercase tracking-wide">Call Us</h4>
-                <p className="text-gray-600 text-lg mb-1">
-                  Contact us for phone details
-                </p>
-                <p className="text-gray-500 text-sm">
-                  Available for clients across Europe
-                </p>
+                <p className="text-gray-600 text-lg mb-1">+46 760 17 69 60</p>
+                <p className="text-gray-500 text-sm">Weekdays 08:00 - 16:00</p>
               </div>
             </div>
 
@@ -502,7 +498,7 @@ export default function Home() {
                   Email Us
                 </h4>
                 <p className="text-white text-lg mb-1">
-                  Contact us for email details
+                  scott@futurelogistics.se
                 </p>
                 <p className="text-white/80 text-sm">
                   Quick response and professional support
@@ -517,8 +513,10 @@ export default function Home() {
                   <MapPin className="h-8 w-8 text-white" />
                 </div>
                 <h4 className="mb-3 uppercase tracking-wide">Visit Us</h4>
-                <p className="text-gray-600 text-lg mb-1">Swedish West Coast</p>
-                <p className="text-gray-500 text-sm">Near Gothenburg Port</p>
+                <p className="text-gray-600 text-lg mb-1">
+                  Port 2, Sydatlanten 40
+                </p>
+                <p className="text-gray-500 text-sm">Gothenburg, Sweden</p>
               </div>
             </div>
           </div>
