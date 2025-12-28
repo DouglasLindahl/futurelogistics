@@ -259,9 +259,9 @@ export default function Home() {
         ></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
             <div className="group">
-              <div className="bg-black p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+              <div className="bg-black h-full p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-red-600/10 rounded-full -mr-16 -mt-16"></div>
                 <div className="relative">
                   <div className="flex items-center gap-4 mb-4">
@@ -301,7 +301,7 @@ export default function Home() {
             </div>
 
             <div className="group">
-              <div className="bg-red-600 p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+              <div className="bg-red-600 h-full p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-black/20 rounded-full -mr-16 -mt-16"></div>
                 <div className="relative">
                   <div className="flex items-center gap-4 mb-4">
@@ -342,7 +342,7 @@ export default function Home() {
             </div>
 
             <div className="group">
-              <div className="bg-black p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+              <div className="bg-black h-full p-8 relative overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-red-600/10 rounded-full -mr-16 -mt-16"></div>
                 <div className="relative">
                   <div className="flex items-center gap-4 mb-4">
@@ -448,7 +448,7 @@ export default function Home() {
               <div className="absolute -top-6 -left-6 w-full h-full border-4 border-red-600"></div>
               <div className="relative h-[500px] overflow-hidden">
                 <ImageWithFallback
-                  src="img1.jpg"
+                  src="About.png"
                   alt="Future Logistics fleet"
                   className="w-full h-full object-cover"
                 />
