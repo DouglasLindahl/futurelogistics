@@ -95,7 +95,7 @@ export default function Home() {
               Future Logistics Sweden AB
             </div>
             <h1
-              className="text-white mb-6 text-6xl md:text-7xl uppercase tracking-tighter"
+              className="text-white mb-6 text-5xl md:text-7xl uppercase tracking-tighter"
               style={{ textShadow: "4px 4px 0 rgba(220, 38, 38, 0.3)" }}
             >
               DELIVERING
@@ -107,7 +107,7 @@ export default function Home() {
             <div className="flex items-center gap-3 mb-8">
               <div className="w-16 h-1 bg-red-600"></div>
               <div>
-                <p className="text-xl text-gray-300">
+                <p className="text-md md:text-xl text-gray-300">
                   From driving vehicles across Europe to inspecting thousands of
                   units in port, service remains at the heart of everything we
                   do. Future Logistics Sweden AB continues to grow by combining
@@ -115,7 +115,7 @@ export default function Home() {
                   larger companies often lose.
                 </p>
                 <br />
-                <p className="text-xl text-gray-300">
+                <p className="text-md md:text-xl text-gray-300">
                   We don’t just move vehicles or check boxes — we move
                   reliability forward, one vehicle at a time.
                 </p>
