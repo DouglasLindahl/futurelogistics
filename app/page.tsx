@@ -428,19 +428,23 @@ export default function Home() {
 
               <div className="grid grid-cols-3 gap-8">
                 <div className="border-l-4 border-red-600 pl-4">
-                  <div className="text-5xl mb-2 text-black">2011</div>
+                  <div className="md:text-5xl text-3xl mb-2 text-black">
+                    2011
+                  </div>
                   <p className="text-gray-600 uppercase tracking-wide text-sm">
                     Founded
                   </p>
                 </div>
                 <div className="border-l-4 border-black pl-4">
-                  <div className="text-5xl mb-2 text-black">30+</div>
+                  <div className="md:text-5xl text-3xl mb-2 text-black">
+                    30+
+                  </div>
                   <p className="text-gray-600 uppercase tracking-wide text-sm">
                     Years Experience
                   </p>
                 </div>
                 <div className="border-l-4 border-red-600 pl-4">
-                  <div className="text-5xl mb-2 text-white md:text-black">
+                  <div className="md:text-5xl text-3xl mb-2 text-white md:text-black">
                     0
                   </div>
 
